@@ -1,0 +1,44 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: top right bottom left / al dejar uno vacio, es del mismo tamaño que el lado opuesto */
+  padding: 0 2rem;
+
+  height:95vh;
+  width:90vh;
+  /* overflow: hidden; */
+  
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
+
+  #app {
+    grid-template-rows: 1fr 7fr;
+  }
+
+  /* arreglar grid-template-rows para pantallas muy bajas y anchas, ojalá dependiera de ambos */
+  
+}

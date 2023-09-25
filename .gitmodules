@@ -1,0 +1,12 @@
+[submodule "rpi-lora"]
+	path = rpi-lora
+	url = https://github.com/josemqz/rpi-lora
+[submodule "portenta_h7_titulo"]
+	path = portenta_h7_titulo
+	url = https://github.com/josemqz/portenta_h7_titulo
+[submodule "web/backend-titulo"]
+	path = web/backend-titulo
+	url = https://github.com/josemqz/backend-titulo
+[submodule "web/frontend-titulo"]
+	path = web/frontend-titulo
+	url = https://github.com/josemqz/frontend-titulo
