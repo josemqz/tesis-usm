@@ -1,12 +1,12 @@
-[submodule "rpi-lora"]
-	path = rpi-lora
-	url = https://github.com/josemqz/rpi-lora
+[submodule "lora_transceiver"]
+	path = lora_transceiver
+	url = git@github.com:josemqz/lora_transceiver.git
 [submodule "portenta_h7_titulo"]
 	path = portenta_h7_titulo
-	url = https://github.com/josemqz/portenta_h7_titulo
+	url = git@github.com:josemqz/portenta_h7_titulo.git
 [submodule "web/backend-titulo"]
 	path = web/backend-titulo
-	url = https://github.com/josemqz/backend-titulo
+	url = git@github.com:josemqz/backend-titulo.git
 [submodule "web/frontend-titulo"]
 	path = web/frontend-titulo
-	url = https://github.com/josemqz/frontend-titulo
+	url = git@github.com:josemqz/frontend-titulo.git
