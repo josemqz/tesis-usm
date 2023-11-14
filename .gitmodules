@@ -4,9 +4,9 @@
 [submodule "portenta_h7_titulo"]
 	path = portenta_h7_titulo
 	url = git@github.com:josemqz/portenta_h7_titulo.git
-[submodule "web/backend-titulo"]
+[submodule "backend-titulo"]
 	path = web/backend-titulo
 	url = git@github.com:josemqz/backend-titulo.git
-[submodule "web/frontend-titulo"]
+[submodule "frontend-titulo"]
 	path = web/frontend-titulo
 	url = git@github.com:josemqz/frontend-titulo.git
